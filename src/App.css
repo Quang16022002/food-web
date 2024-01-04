@@ -1,0 +1,19 @@
+.link-no-underline {
+    text-decoration: none !important; /* !important đảm bảo rằng kiểu ghi đè trên mọi thứ */
+}
+ul {
+    list-style-type: none;
+}
+
+input:focus {
+    outline: none;
+}
+li a.active {
+    color: var(--textcolor); /* Màu chữ của liên kết hiện tại */
+    text-decoration: none; /* Gạch chân cho liên kết hiện tại */
+}
+
+h1 a.active {
+    color: black; /* Màu chữ của liên kết hiện tại */
+    text-decoration: none; /* Gạch chân cho liên kết hiện tại */
+}

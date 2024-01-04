@@ -1,0 +1,99 @@
+.card {
+    img {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    h5 {
+        margin-bottom: 20px;
+    }
+}
+.Home-banner img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card-body h5 {
+    transition: color 0.3s ease;
+}
+
+.card-body h5:hover {
+    color: rgb(166, 130, 66);
+}
+.table-cart thead tr th {
+    padding: 10px 10px 30px 10px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.table-cart {
+    padding: 0 50px 0 50px;
+}
+
+.table-cart tbody tr td {
+    padding: 10px;
+}
+.quantity {
+    button {
+        display: flex;
+        width: 25px;
+        height: 25px;
+        align-items: center;
+        justify-content: center;
+
+        color: rgb(188, 190, 193);
+        background-color: white;
+        border: 1px solid rgb(222, 226, 230);
+    }
+    span {
+        display: flex;
+        width: 35px;
+        height: 25px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgb(222, 226, 230);
+    }
+}
+
+.hedding-cart {
+    margin: 60px 0 30px 0;
+    text-align: center;
+    h1 {
+        margin-bottom: 35px;
+    }
+    .hr {
+        width: 65px;
+        margin: 0 auto;
+        background-color: black;
+        height: 4px;
+    }
+}
+.delete-cart {
+    border: none;
+    background-color: #fff;
+    font-size: 20px;
+}
+.information-cart {
+    padding: 0 50px 0 50px;
+    margin-top: 40px;
+}
+.checkout-note textarea {
+    border-radius: 0;
+    background: #ededed;
+    color: #000000;
+    font-size: 15px;
+    padding: 20px 15px;
+    outline: none;
+    width: 100% !important;
+    min-height: 130px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all 150ms linear;
+}
+.link-continue {
+    color: #000000;
+}
+.navbare {
+    display: flex;
+    justify-content: space-between;
+}

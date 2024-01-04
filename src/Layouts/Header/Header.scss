@@ -1,0 +1,53 @@
+//header-left
+.Name-logo h1 {
+    margin: 0;
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+.search {
+    margin-right: 15px;
+    input {
+        position: relative;
+        caret-color: rgb(179, 180, 181);
+        border-radius: 50px;
+        border: 1px solid rgb(179, 180, 181);
+        padding: 4px 15px 4px 15px;
+    }
+    input:focus {
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+    input::placeholder {
+        font-size: 13px;
+    }
+    i {
+        position: absolute;
+        color: var(--textcolor);
+        font-size: 14px;
+        cursor: pointer;
+        margin-left: 177px;
+        margin-top: 10px;
+    }
+}
+
+//cart
+.cart {
+    padding-right: 0;
+    i {
+        cursor: pointer;
+        color: var(--textcolor);
+    }
+    .qty {
+        color: white;
+        font-size: 11px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-color: rgb(227, 8, 28);
+        margin: -3px 0 0 -5px;
+    }
+}
